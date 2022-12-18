@@ -50,7 +50,7 @@ body {
     flex-direction: column;
     flex-grow: 1;
 }
-.profile {
+.profile-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,7 +124,7 @@ body {
     top: -2px;
     width: 30px;
     height: 30px;
-    background-image: url(/assets/img/person.png);
+    background-image: url(assets/img/person.png);
     background-repeat: no-repeat;
 }
 .contacts-list {
@@ -156,7 +156,7 @@ body {
     top: 0;
     width: 20px;
     height: 20px;
-    background-image: url(/assets/img/map.png);
+    background-image: url(assets/img/map.png);
     background-repeat: no-repeat;
 }
 .phone {
@@ -169,7 +169,7 @@ body {
     top: 0;
     width: 20px;
     height: 20px;
-    background-image: url(/assets/img/phone.png);
+    background-image: url(assets/img/phone.png);
     background-repeat: no-repeat;
 }
 .mail {
@@ -182,7 +182,7 @@ body {
     top: 0;
     width: 20px;
     height: 20px;
-    background-image: url(/assets/img/mail.png);
+    background-image: url(assets/img/mail.png);
     background-repeat: no-repeat;
 }
 .telegram{
@@ -195,7 +195,7 @@ body {
     top: 3px;
     width: 20px;
     height: 20px;
-    background-image: url(/assets/img/telegram-white.png);
+    background-image: url(assets/img/telegram-white.png);
     background-repeat: no-repeat;
 }
 .skills {
@@ -217,7 +217,7 @@ body {
     top: 3px;
     width: 30px;
     height: 30px;
-    background-image: url(/assets/img/skills.png);
+    background-image: url(assets/img/skills.png);
     background-repeat: no-repeat;
 }
 .skills-list {
@@ -238,7 +238,7 @@ body {
     top:-5px;
     width: 25px;
     height: 25px;
-    background-image: url(/assets/img/html.png);
+    background-image: url(assets/img/html.png);
     background-repeat: no-repeat;
 }
 .skills-item:nth-child(2)::before {
@@ -248,7 +248,7 @@ body {
     top:-5px;
     width: 25px;
     height: 25px;
-    background-image: url(/assets/img/css.png);
+    background-image: url(assets/img/css.png);
     background-repeat: no-repeat;
 }
 .skills-item:nth-child(3)::before {
@@ -258,7 +258,7 @@ body {
     top:-5px;
     width: 25px;
     height: 25px;
-    background-image: url(/assets/img/javascript.png);
+    background-image: url(assets/img/javascript.png);
     background-repeat: no-repeat;
 }
 .skills-item:nth-child(4)::before {
@@ -268,7 +268,7 @@ body {
     top:-5px;
     width: 25px;
     height: 25px;
-    background-image: url(/assets/img/github-white.png);
+    background-image: url(assets/img/github-white.png);
     background-repeat: no-repeat;
 }
 .skills-item:nth-child(5)::before {
@@ -278,7 +278,7 @@ body {
     top:-5px;
     width: 25px;
     height: 25px;
-    background-image: url(/assets/img/figma.png);
+    background-image: url(assets/img/figma.png);
     background-repeat: no-repeat;
 }
 .languages-title {
@@ -296,7 +296,7 @@ body {
     top: 0;
     width: 30px;
     height: 30px;
-    background-image: url(/assets/img/languages.png);
+    background-image: url(assets/img/languages.png);
     background-repeat: no-repeat;
 }
 .languages-list {
@@ -448,7 +448,7 @@ body {
 .faculty-info {
     font-size: 12px;
     color: #e2e2e2;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 .footer-container {
     background-color: #0e0d0d;
