@@ -50,7 +50,7 @@ body {
     flex-direction: column;
     flex-grow: 1;
 }
-.profile {
+.profile-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -448,7 +448,7 @@ body {
 .faculty-info {
     font-size: 12px;
     color: #e2e2e2;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 .footer-container {
     background-color: #0e0d0d;
