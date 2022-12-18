@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <title>Egorov CV RSS</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+</head>
+<body>
+    <header class="header">
+        <div class="container navigation-container">
+            <div class="photo-container">
+                <img class="profile-picture" src="/assets/img/me.jpg" width="200" height="200" alt="my photo">
+            </div>
+            <div class="header-container">
+                <div class="profile">
+                    <h1 class="profile-title">Nikita Egorov</h1>
+                    <h2 class="profile-info">Junior Frontend Developer</h2>
+                </div>
+                    <nav class="navigation">
+                        <ul class="navigation-list">
+                            <li class="navigation-item"><a href="#about-me" class="navigation-link">About me</a></li>
+                            <li class="navigation-item"><a href="#projects" class="navigation-link">Projects</a></li>
+                            <li class="navigation-item"><a href="#contacts" class="navigation-link">Contacts</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+                <div class="two-columns">
+                    <div class="left-column">
+                        <section class="contacts">
+                            <div class="contacts-container">
+                                <div class="title-container">
+                                    <h2 class="contacts-title">Contacts</h2>
+                                </div>
+                                <ul class="contacts-list">
+                                    <li class="contacts-item map">Moscow, Russia</li>
+                                    <li class="contacts-item phone">+7 (909) 158-33-34</li>
+                                    <li class="contacts-item mail"><a class="contacts-link" href="mailto:egrv.nkt@gmail.com">egrv.nkt@gmail.com</a></li>
+                                    <li class="contacts-item telegram"><a class="contacts-link" href="https://t.me/frmdthtbrth">@frmdthtbrth</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="skills" id="skills">
+                                <div class="skills-container">
+                                    <div class="title-container">
+                                        <h2 class="skills-title">Skills</h2>
+                                    </div>
+                                    <ul class="skills-list">
+                                        <li class="skills-item">HTML - 80%</li>
+                                        <li class="skills-item">CSS - 60%</li>
+                                        <li class="skills-item">JavaScript - 20%</li>
+                                        <li class="skills-item">Git - 60%</li>
+                                        <li class="skills-item">Figma - 80%</li>
+                                    </ul>
+                                </div>
+                            </section>
+                            <section class="languages" id="languages">
+                                <div class="languages-container">
+                                    <div class="title-container">
+                                        <h2 class="languages-title">Languages</h2>
+                                    </div>
+                                        <ul class="languages-list">
+                                            <li class="languages-item">Russian - Native</li>
+                                            <li class="languages-item">English - B1</li>
+                                        </ul>
+                                </div>
+                            </section>
+                    </div>
+                    <div class="right-column">
+                        <section class="about-me" id="about-me">
+                            <h2 class="aboutme-title">About me</h2>
+                            <p class="aboutme-info">
+                                In my twenty-three years, I realized that it was necessary to integrate into the modern world. The search for a technological profession led me to the field of front-end development.
+                            </p>
+                            <p class="aboutme-info">
+                                My goal is to become a real specialist who can solve complex problems and do it with creative ease. My passion is writing and one day I started writing code...
+                            </p>
+                        </section>
+                        <section class="projects" id="projects">
+                            <h2 class="projects-title">Projects</h2>
+                                <ul class="projects-list">
+                                    <li class="projects-item">
+                                        <img src="/assets/img/cube.png" alt="Cube">
+                                        <a href="https://egrvn.github.io/3d_cube_on_css/" class="project-link">3D Cube on CSS</a></li>
+                                    <li class="projects-item">
+                                        <img src="/assets/img/in_progress.png" alt="in_progress">
+                                        In progress...</li>
+                                    <li class="projects-item">
+                                        <img src="/assets/img/in_progress.png" alt="in_progress">
+                                        In progress...</li>
+                                    <li class="projects-item">
+                                        <img src="/assets/img/in_progress.png" alt="in_progress">
+                                        In progress...</li>
+                                    <li class="projects-item">
+                                        <img src="/assets/img/in_progress.png" alt="in_progress">
+                                        In progress...</li>
+                                    <li class="projects-item">
+                                        <img src="/assets/img/in_progress.png" alt="in_progress">
+                                        In progress...</li>
+                                </ul>
+                        </section>
+                        <section class="code" id="code">
+                            <h2 class="code-title">Code example</h2>
+                            <p class="code-example">
+                                <code class="code-info"><span class="token keyword">let</span> age <span class="token operator">=</span> <span class="token function">prompt</span><span class="token punctuation">(</span><span class="token string">"How old are you?"</span><span class="token punctuation">,</span> <span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>
+                                    <br><span class="token keyword">let</span> welcome <span class="token operator">=</span> <span class="token punctuation">(</span>age <span class="token operator">&lt;</span> <span class="token number">18</span><span class="token punctuation">)</span> <span class="token operator">?</span><br>
+                                    <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"Hi!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span> <span class="token operator">:</span><br>
+                                    <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"Hello!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+                                </code>
+                            </p>
+                        </section>
+                        <section class="courses" id="courses">
+                            <h2 class="courses-title">Courses</h2>
+                            <ul class="courses-list">
+                                <li class="courses-item"><a href="https://rs.school/js-stage0/" class="courses-link">RS School «JavaScript/Front-end»</a></li>
+                                <li class="courses-item"><a href="https://htmlacademy.ru/profession/frontender" class="courses-link">HTML Academy</a></li>
+                            </ul>
+                        </section>
+                        <section class="education" id="education">
+                            <h2 class="education-title">Education</h2>
+                            <p class="university-info">
+                                Institute of Journalism and Literary Creativity / Bachelor
+                            </p>
+                            <p class="graduation-date">
+                                SEPTEMBER 2016 - JUNE 2020, Moscow
+                            </p>
+                            <p class="faculty-info">
+                                Journalism
+                            </p>
+                        </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-copyright">
+                    <p>© 2022 by Nikita Egorov</p>
+                </div>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="https://t.me/frmdthtbrth" class="footer-link"><img src="/assets/img/telegram-footer.png" width="30" height="30" alt="Telegram"></a></li>
+                    <li class="footer-item"><a href="https://www.linkedin.com/in/egrvn/" class="footer-link"><img src="/assets/img/linkedin-white.png" width="30" height="30" alt="LinkedIn"></a></li>    
+                    <li class="footer-item"><a href="https://github.com/egrvn" class="footer-link"><img src="/assets/img/github-footer.png" width="30" height="30" alt="Github"></a></li>
+                    <li class="footer-item"><a href="https://rs.school/js/" class="footer-link"><img src="/assets/img/rs_school_js.svg" width="80" height="30" alt="RS School"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
