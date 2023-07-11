@@ -383,6 +383,12 @@ body {
 .projects-item:nth-child(1):hover {
     border-color: #07bd50;
 }
+.projects-item:nth-child(2):hover {
+    border-color: #0771bd;
+}
+.projects-item:nth-child(3):hover {
+    border-color: #6911e5;;
+}
 .project-link {
     color: #e2e2e2;
     text-decoration: none;
@@ -396,8 +402,18 @@ body {
     fill: #07bd50;
     transform: scale(1.1);
 }
+.shelter__icon:hover {
+    fill: #0771bd;
+    transform: scale(1.1);
+}
+.momentum__icon:hover {
+    fill: #6911e5;
+    transform: scale(1.1);
+}
 .project__icon {
     transition: 0.6s;
+    width: 24px;
+    height: 24px;
 }
 .project__icon:hover {
     transform: scale(1.1);
@@ -405,6 +421,12 @@ body {
 }
 .plants__project:hover {
     color: #07bd50;
+}
+.shelter__project:hover {
+    color: #0771bd;
+}
+.momentum__project:hover {
+    color: #6911e5;
 }
 .project__info {
     font-size: 8px;
